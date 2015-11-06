@@ -1,11 +1,17 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-        <title>Blank App</title>
-    </head>
-    <body>
-        <script type="text/javascript" src="cordova.js"></script>
-    </body>
+<html ng-app>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <title>Hello Phonegap</title>
+
+    <script type="text/javascript" src="vendor/angular/1.4.7/angular.min.js"></script>
+</head>
+<body>
+<h1>{{ hello }}</h1>
+
+<input type="text" ng-model="hello" />
+
+<script type="text/javascript" src="cordova.js"></script>
+</body>
 </html>
