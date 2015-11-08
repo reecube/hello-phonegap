@@ -130,3 +130,5 @@ node_modules
 
 # project ignores
 storage.json
+!platforms/platforms.json
+platforms/*

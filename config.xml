@@ -10,4 +10,6 @@
     <content src="index.html" />
     <access origin="*" />
     <icon src="www/icon.png" />
+    <engine name="ios" spec="~3.9.2" />
+    <engine name="browser" spec="~4.0.0" />
 </widget>
